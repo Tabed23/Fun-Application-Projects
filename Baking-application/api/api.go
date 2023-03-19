@@ -16,7 +16,6 @@ var (
 	logger = logrus.New()
 )
 
-
 //API Server Struct
 type APIServer struct {
 	listenAddr string
@@ -30,6 +29,7 @@ func NewAPIServer(listenAddr string, storage repository.Store) *APIServer {
 		store:      storage,
 	}
 }
+
 //Run the APIServer
 func (s *APIServer) Run() {
 	router := mux.NewRouter()
@@ -42,12 +42,12 @@ func (s *APIServer) Run() {
 	})
 	router.HandleFunc("/account", makeHttpHandler(s.handleAccount))
 	router.HandleFunc("/account/{id}", makeHttpHandler(s.handleGetAccountById))
+	router.HandleFunc("/transfer", makeHttpHandler(s.handleTransferPayment))
 
 	logger.Info("API Server is listening on %s ", s.listenAddr)
 
 	http.ListenAndServe(s.listenAddr, router)
 }
-
 
 //Handle Account Routes
 func (s *APIServer) handleAccount(w http.ResponseWriter, r *http.Request) error {
@@ -77,7 +77,6 @@ func (s *APIServer) handleGetAccounts(w http.ResponseWriter, r *http.Request) er
 	return WriteJson(w, http.StatusOK, accounts)
 }
 
-
 //HandlePostAccount
 func (s *APIServer) handleCreateAccount(w http.ResponseWriter, r *http.Request) error {
 	logger.Info("Post Account ", "Handler")
@@ -103,7 +102,6 @@ func (s *APIServer) handleCreateAccount(w http.ResponseWriter, r *http.Request) 
 
 	return WriteJson(w, http.StatusOK, account)
 }
-
 
 //handleGetAccountById
 func (s *APIServer) handleGetAccountById(w http.ResponseWriter, r *http.Request) error {
@@ -149,7 +147,6 @@ func (s *APIServer) handleDeleteAccount(w http.ResponseWriter, r *http.Request) 
 	return WriteJson(w, http.StatusOK, map[string]int{"deleted": id})
 }
 
-
 //Handler Update Account
 func (s *APIServer) handleUpdateAccount(w http.ResponseWriter, r *http.Request) error {
 	logger.Info("Update Account", "Handler")
@@ -175,7 +172,15 @@ func (s *APIServer) handleUpdateAccount(w http.ResponseWriter, r *http.Request) 
 }
 
 func (s *APIServer) handleTransferPayment(w http.ResponseWriter, r *http.Request) error {
-	return nil
+	logger.Info("Transfer payment"," Handler")
+	transferReq := new(types.TransferRequest)
+	if err := json.NewDecoder(r.Body).Decode(transferReq); err != nil {
+		logger.Error("Error decoding transfer request", err)
+		return err
+	}
+	defer r.Body.Close()
+
+	return WriteJson(w, http.StatusOK, transferReq)
 }
 
 //Write Json Response
@@ -187,7 +192,6 @@ func WriteJson(w http.ResponseWriter, status int, v any) error {
 
 	return json.NewEncoder(w).Encode(v)
 }
-
 
 //Making a Type of Handler
 type apiFunc func(http.ResponseWriter, *http.Request) error

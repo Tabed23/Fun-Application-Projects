@@ -19,7 +19,6 @@ type Account struct {
 	CreatedAt         time.Time `json:"createdAt"`
 }
 
-
 //New Account
 func NewAccount(firstName string, lastName string, password string) (*Account, error) {
 	encpw, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
@@ -36,6 +35,7 @@ func NewAccount(firstName string, lastName string, password string) (*Account, e
 		CreatedAt: time.Now().UTC(),
 	}, nil
 }
+
 //New Account
 func UpdateAccount(id int, firstName , lastName , password string, balance , number int64) *Account {
 	log.Println("Update Account", "Types", "Returning Account")
@@ -48,8 +48,6 @@ func UpdateAccount(id int, firstName , lastName , password string, balance , num
 		EncryptedPassword: password,
 	}
 }
-
-
 
 
 type CreateAccountRequest struct {

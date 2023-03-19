@@ -9,7 +9,6 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-
 //Database Operations
 type Store interface {
 	CreateAccount(*types.Account) error
@@ -19,7 +18,6 @@ type Store interface {
 	GetAccounts() ([]*types.Account, error)
 	GetAccountByNumber(int) (*types.Account, error)
 }
-
 
 var (
 	logger = logrus.New()
