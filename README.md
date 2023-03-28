@@ -62,4 +62,4 @@ In this project, you will learn how to use Docker to create a container for your
 We hope that this repository will help you improve your skills and become a better developer. Good luck, and happy coding!
 
 
-<img width="250" alt="birthday" src="https://github.com/GolangUA/gopher-logos/blob/master/PNG/gopher_birthday.png"><img width="250" alt="nerd" src="https://github.com/GolangUA/gopher-logos/blob/master/PNG/gopher_nerd.png"><img width="250" alt="vacations" src="https://github.com/GolangUA/gopher-logos/blob/master/PNG/gopher_vacations.png">
+<img width="250" alt="vacations" src="https://github.com/GolangUA/gopher-logos/blob/master/PNG/gopher_vacations.png">
