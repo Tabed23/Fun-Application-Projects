@@ -4,6 +4,7 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { BookModule } from './book/book.module';
 import { join } from 'path';
+import { TypeOrmModule } from '@nestjs/typeorm';
 
 @Module({
   imports: [
@@ -16,7 +17,21 @@ import { join } from 'path';
         path: join(process.cwd(), 'src/graphql.ts')
       },
     }),
-    BookModule,
+
+    TypeOrmModule.forRoot(
+      {
+        type:'postgres',
+        host: 'localhost',
+        port: 5432,
+        username: 'postgres',
+        password: 'postgres',
+        database: 'books_db',
+        entities: [__dirname + '/**/*.entity{.ts,.js}'],
+        synchronize: true,
+      }
+    ),
+
+    BookModule
   ],
   controllers: [],
   providers: [AppResolver],

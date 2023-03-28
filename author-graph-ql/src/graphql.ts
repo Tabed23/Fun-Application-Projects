@@ -8,7 +8,12 @@
 /* tslint:disable */
 /* eslint-disable */
 
-export interface BookArgs {
+export interface CreateBookArgs {
+    title: string;
+    price: number;
+}
+
+export interface UpdateBookArgs {
     id: number;
     title: string;
     price: number;
@@ -28,8 +33,8 @@ export interface IQuery {
 
 export interface IMutation {
     deleteBookByID(bookID: number): string | Promise<string>;
-    createBook(addBookArgs: BookArgs): string | Promise<string>;
-    UpdateBook(bookID: number, updateBookArgs: BookArgs): string | Promise<string>;
+    createBook(addBookArgs: CreateBookArgs): string | Promise<string>;
+    UpdateBook(updateBookArgs: UpdateBookArgs): string | Promise<string>;
 }
 
 type Nullable<T> = T | null;
