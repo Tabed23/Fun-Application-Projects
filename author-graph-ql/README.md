@@ -48,3 +48,33 @@ $ npm run start:dev
 Go TO
 http://localhost:3000/graphql
 ```
+
+```
+GraphQL Schema
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Book {
+  id: Int!
+  title: String!
+  price: Int!
+}
+
+type Query {
+  index: String!
+  getAllBooks: [Book!]!
+  getBookByID(bookID: Int!): Book
+}
+
+type Mutation {
+  deleteBookByID(bookID: Int!): String!
+  createBook(addBookArgs: BookArgs!): String!
+  UpdateBook(bookID: Int!, updateBookArgs: BookArgs!): String!
+}
+
+input BookArgs {
+  id: Int!
+  title: String!
+  price: Int!
+}
+```
