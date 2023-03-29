@@ -34,7 +34,7 @@ In this project, you will learn how to use Docker to create a container for your
 
 ### 🚍 Communication
 
-|                                                        Technology Icon                                                        | Technology Name | URL                                                                                                     |
+|                                                        Technology Icon                                                        | Technology Name |                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192107854-765620d7-f909-4953-a6da-36e1ef69eea6.png"> |      HTTP       |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192107855-e669c777-9172-49c5-b7e0-404e29df0fee.png"> |      gRPC       |
@@ -44,7 +44,7 @@ In this project, you will learn how to use Docker to create a container for your
 
 
 # Web Development
- Technology Icon                                                        | Technology Name | URL                                                                                                     |
+ Technology Icon                                                        | Technology Name |                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png"> |      HTML       |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png"> |       CSS       |
@@ -57,7 +57,7 @@ In this project, you will learn how to use Docker to create a container for your
 
 ### 📜 JavaScript
 
-|                                                        Technology Icon                                                        | Technology Name | URL                                                                                                     |
+|                                                        Technology Icon                                                        | Technology Name |                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"> |   JavaScript    |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/183890595-779a7e64-3f43-4634-bad2-eceef4e80268.png"> |     Angular     |
@@ -98,7 +98,7 @@ In this project, you will learn how to use Docker to create a container for your
 
 ### 💾 Database
 
-|                                                        Technology Icon                                                        | Technology Name | URL                                                                                                     |
+|                                                        Technology Icon                                                        | Technology Name |                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/117208740-bfb78400-adf5-11eb-97bb-09072b6bedfc.png"> |   PostgreSQL    |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/117208736-bdedc080-adf5-11eb-912f-61c7d43705f6.png"> |     Oracle      |
@@ -110,9 +110,9 @@ In this project, you will learn how to use Docker to create a container for your
 
 ### 🤿 DevOps
 
-|                                                        Technology Icon                                                        | Technology Name | URL                                                                                                     |
+|                                                        Technology Icon                                                        | Technology Name |                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png"> |      bash       |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png"> |     Docker      |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/182534006-037f08b5-8e7b-4e5f-96b6-5d2a5558fa85.png"> |   Kubernetes    |
-| <img height="50" src="https://user-images.githubusercontent.com/25181517/183345121-36788a6e-5462-424a-be67-af1ebeda79a2.png"> |    Terraform    | 
+| <img height="50" src="https://user-images.githubusercontent.com/25181517/183345121-36788a6e-5462-424a-be67-af1ebeda79a2.png"> |    Terraform    |
