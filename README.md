@@ -35,7 +35,7 @@ In this project, you will learn how to use Docker to create a container for your
 ### 🚍 Communication
 
 |                                                        Technology Icon                                                        | Technology Name |                                                                                                    |
-| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192107854-765620d7-f909-4953-a6da-36e1ef69eea6.png"> |      HTTP       |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192107855-e669c777-9172-49c5-b7e0-404e29df0fee.png"> |      gRPC       |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png"> |     GraphQL     |
@@ -45,7 +45,7 @@ In this project, you will learn how to use Docker to create a container for your
 
 # Web Development
  Technology Icon                                                        | Technology Name |                                                                                                    |
-| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png"> |      HTML       |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png"> |       CSS       |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192158956-48192682-23d5-4bfc-9dfb-6511ade346bc.png"> |      Sass       |
@@ -58,7 +58,7 @@ In this project, you will learn how to use Docker to create a container for your
 ### 📜 JavaScript
 
 |                                                        Technology Icon                                                        | Technology Name |                                                                                                    |
-| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"> |   JavaScript    |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/183890595-779a7e64-3f43-4634-bad2-eceef4e80268.png"> |     Angular     |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"> |      React      |
@@ -73,7 +73,7 @@ In this project, you will learn how to use Docker to create a container for your
 ###  Python
 
 |                                                        Technology Icon                                                        | Technology Name | URL                                                                                                     |
-| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png"> |     Python      |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/183423775-2276e25d-d43d-4e58-890b-edbc88e915f7.png"> |      Flask      |
 
@@ -81,7 +81,7 @@ In this project, you will learn how to use Docker to create a container for your
 ###  Ruby
 
 |                                                        Technology Icon                                                        | Technology Name | URL                                                                                                     |
-| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192603745-7d34df9e-7756-4756-a539-6a61badf7a80.png"> |      Ruby       |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192603748-3ac17112-3653-4257-80da-a57334b11411.png"> |  Ruby on Rails  |
 
@@ -99,7 +99,7 @@ In this project, you will learn how to use Docker to create a container for your
 ### 💾 Database
 
 |                                                        Technology Icon                                                        | Technology Name |                                                                                                    |
-| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | 
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/117208740-bfb78400-adf5-11eb-97bb-09072b6bedfc.png"> |   PostgreSQL    |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/117208736-bdedc080-adf5-11eb-912f-61c7d43705f6.png"> |     Oracle      |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png"> |      MySQL      |
@@ -111,7 +111,7 @@ In this project, you will learn how to use Docker to create a container for your
 ### 🤿 DevOps
 
 |                                                        Technology Icon                                                        | Technology Name |                                                                                                    |
-| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------- |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-------------: |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png"> |      bash       |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png"> |     Docker      |
 | <img height="50" src="https://user-images.githubusercontent.com/25181517/182534006-037f08b5-8e7b-4e5f-96b6-5d2a5558fa85.png"> |   Kubernetes    |
