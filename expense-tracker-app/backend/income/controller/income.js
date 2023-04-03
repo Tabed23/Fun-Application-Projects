@@ -30,6 +30,8 @@ exports.addIncome = async (req,res) => {
     try {
 
         const incomes = await IncomeSchema.find().sort({createdAt:-1});
+        console.log(incomes)
+        
         res.status(200).json({"incomes": incomes})
 
     }catch (err) {

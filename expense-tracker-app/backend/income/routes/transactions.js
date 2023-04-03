@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
 })
 
 router.post('/add-income', addIncome)
-router.get('/get-income', getIncome)
+router.get('/get-incomes', getIncome)
 router.delete('/delete-income/:id', deleteIncome)
 
 module.exports = router
