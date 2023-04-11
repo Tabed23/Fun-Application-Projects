@@ -6,24 +6,15 @@ Welcome to the Skill Improvement Repository!
 In this repository, you will find a collection of projects aimed at improving your skills in various programming languages and frameworks. The primary focus of this repository is on Golang, Python, Node.js, TypeScript, React.js, and Ruby on Rails.
 ```
 
-# Golang
-
-# Python
-
-# Node.js
-
-
-# TypeScript
-
-# React.js
-
-# Ruby on Rails
-
-# GraphQL
-
-# gRPC
-
-# DevOps
+Golang
+Python
+Node.js
+TypeScript
+React.js
+Ruby on Rails
+GraphQL
+gRPC
+DevOps
 ```
 In this project, you will learn how to use Docker to create a container for your application, and how to use docker-compose to configure your database.
 ```
